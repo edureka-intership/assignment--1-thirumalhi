@@ -1,21 +1,21 @@
 .header{
     display: inline-block;
-    background-color: rgb(59 51 255);
+    background-color: #EB2929;
     height: 53px;
     width: 100%;
     border-radius: 5px;
 }
 .button{
-    background-color: rgb(59 51 255);
+    background-color: #EB2929;
     color: white;
     height: 35px;
     width: 135px;
     font-size: 14px;
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     transition-duration: 0.4s;
 }
 .button:hover {
-    background-color: rgb(0, 10, 123);
+    background-color: rgb(123, 0, 0);
     color: white;
 }
 .login{
@@ -32,37 +32,37 @@
 }
 .logo{
     font-size: 40px;
-    color: #040bf5;
+    color: #EB2929;
     text-align: center;
     height: 45px;
     width: 45px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 61%;
     margin-left: 4%;
     margin-top: 3px;
 }
 .Breakfast{
     font-size: 30px;
-    color: darkblue;
+    color: #192F60;
     font-weight: bold;
     padding: 10px;
     margin-top: 12px;
     margin-left: 7%;
 }
 .side-bar{
-    display: inline-block;
-    background-color: white;
+    float: left;
+    background-color: #FFFFFF;
     height: 100%;
     width: auto;
-    margin: 10px;
+    margin-top: 5%;
+    margin-left: 10%;
     padding: 25px;
-    margin-left: 180px;
-    box-shadow: 3px 3px #e2e2e2;;
+    box-shadow: 0px 3px 6px #00000029;  
 }
 .Filters{
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+    color: #192F60;
     padding: 2px;
     padding-top: 2px;
 
@@ -74,31 +74,22 @@
     width: 175px;
     height: 30px;
     font-size: 14px;
+    color: #8C96AB;
 }
 .usastyle{
     font-size: 14px;
+    color: #8C96AB;
     padding-left: 22px;
     padding-bottom: 20px;
 }
 .Briyani1{
-    display: inline-block;
-    background-color: white;
+    float: left;
+    background-color: #FFFFFF;
     vertical-align: top;
-    margin: 25px;
-    padding: 25px;
-    width: 50%;
-    box-shadow: 3px 3px #e2e2e2;;
-}
-.Briyani2{
-    display: inline-block;
-    background-color: white;
-    vertical-align: top;
-    margin: 25px;
-    padding: 25px;
-    width: 50%;
-    margin-top: -277px;
-    margin-left: 470px;
-    box-shadow: 3px 3px #e2e2e2;;
+    margin: 30px;
+    padding: 5px;
+    width: 60%;
+    box-shadow: 0px 3px 6px #00000029;
 }
 .image{
     display: inline-block;
@@ -107,38 +98,43 @@
     display: inline-block;
     font-size: 23px;
     font-weight: bold;
-    color: darkblue;
+    color: #192F60;
     margin-left: 140px;
     margin-top: -70px;
     vertical-align: top;
 }
 .Fort{
     font-size: 16px;
-    color: darkblue;
+    font-weight: bold;
+    color: #192F60;
     margin-left: 140px;
     margin-top: -52px;
     vertical-align: top;
 }
 .adress{
     font-size: 16px;
+    color: #636F88;
     margin-left: 140px;
     margin-top: -18px;
     vertical-align: top;
 }
 .cuisines{
     font-size: 16px;
+    color: #636F88;
     margin-left: 10px;
     margin-top: 20px;
     vertical-align: top;
 }
 .cost{
     font-size: 16px;
+    color: #636F88;
     margin-left: 10px;
     margin-top: -10px;
     vertical-align: top;
 }
 .restaurent{
     font-size: 16px;
+    color: #192F60;
     margin-left: 155px;
     margin-top: -63px;
     vertical-align: top;
@@ -150,14 +146,20 @@
     vertical-align: top;
 }
 .line{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #636F88;
     width: auto;
 }
 .nextpage{
     display: inline-flex;
-    margin-left: 45%;
+    margin-top: 5%;
+    margin-left: 25%;
 }
 .buttons2{
     padding-right: 10%;
 }
+.result-part{
+    margin-left: 25%;
+    padding: 2%;
+    margin-top: 2%;
 
+}
